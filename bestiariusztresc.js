@@ -1,3 +1,4 @@
+document.write(`
 <div class="item-container">
 
 <!-- NAGŁ-->
@@ -877,3 +878,5 @@ Czas działania: 3 posty, 4 posty odpoczynku
 [b][color=#d4cecd]Posiadacze:[/color][/b] Velo
 </div></div></div>
 <!-- KONIEC PRZEDMIOTU -->
+</div>
+`);
