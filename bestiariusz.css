@@ -22,7 +22,6 @@
 .cont > div::-webkit-scrollbar { width: 4px; } 
 .cont > div::-webkit-scrollbar-track { background: rgba(0,0,0,0.1); } 
 .cont > div::-webkit-scrollbar-thumb { background: #936176; border-radius: 2px; }
-.header-inner > div hr { border: none; border-top: 1px solid #936176; margin: 15px 0; }
 .cont > div b { color: #d4cecd; }
 .header-inner b:last-of-type::before, 
 .header-inner b:last-of-type::after {
