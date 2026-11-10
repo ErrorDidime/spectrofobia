@@ -23,16 +23,3 @@
 .cont > div::-webkit-scrollbar-track { background: rgba(0,0,0,0.1); }
 .cont > div::-webkit-scrollbar-thumb { background: #936176; border-radius: 2px; } 
 .cont > div b { color: #d4cecd; }
-/* Automatyczny styl i ozdobniki dla nagłówków rang */
-.section-title {
-    text-align: center;
-    margin: 25px 0;
-    font-family: 'Bigelow Rules', cursive;
-    font-size: 34px;
-    color: #d4cecd;
-}
-.section-title::before,
-.section-title::after {
-    content: " ─── ";
-    color: #ab8394;
-}
