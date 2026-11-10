@@ -1,19 +1,5 @@
-.item-container, .item-container * { box-sizing: border-box; } 
-.item-container br { display: none; } 
-.item-container { width: 540px; margin: 20px auto; padding: 0 0 20px 0; border: 1px solid transparent; border-image: linear-gradient(135deg, #936176, #c48b9f, #936176, #593544) 1; color: #ab8394; font: 12px Lato; } 
-.header-img { width: 100%; line-height: 0; } 
-.header-img img { width: 100%; height: auto; display: block; border: 0; margin: 0; } 
-.header-inner { padding: 20px 20px 0 20px; text-align: center; } 
-.item-header { margin-bottom: 25px; padding-bottom: 15px; } 
-.item-header > .header-inner > b, .header-inner > b { font-family: 'Bigelow Rules', cursive; font-size: 38px; line-height: 32px; font-weight: 400; display: block; color: #d4cecd; } 
-.item-header > .header-inner > div { margin-top: 10px; font-size: 13px; line-height: 1.4; text-align: justify; color: #ab8394; } 
-
-/* Styl dla wycentrowanych nagłówków rang pomiędzy sekcjami */
-.section-title { text-align: center; margin: 25px 0; padding: 0 20px; }
-.section-title b { font-family: 'Bigelow Rules', cursive; font-size: 34px; color: #d4cecd; display: inline-block; }
-
 .box { width: 500px; height: 400px; margin: 0 auto 15px auto; position: relative; text-align: left; background: #1c111c; border: 1px solid transparent; border-image: linear-gradient(135deg, #936176, #c48b9f, #936176, #593544) 1; display: flex; color: #936176; font: 12px Lato; } 
-.box:first-of-type { margin-top: 15px; } 
+.box:first-of-type { margin-top: 35px; } 
 .rank { position: absolute; right: -10px; top: -10px; background: #1c111c; padding: 10px 12px; display: inline-flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; border: 1px solid transparent; border-image: linear-gradient(135deg, #c48b9f, #936176) 1; color: #d4cecd; z-index: 10; line-height: 1.1; } 
 .rank .game-icon { font-size: 26px; } 
 .rank > b { font: 20px Castoro; margin-bottom: -3px; color: #d4cecd; } 
@@ -26,7 +12,5 @@
 .box hr { border: none; border-top: 1px solid #936176; margin: 15px 0; } 
 .cont > div::-webkit-scrollbar { width: 4px; } 
 .cont > div::-webkit-scrollbar-track { background: rgba(0,0,0,0.1); } 
-.cont > div::-webkit-scrollbar-thumb { background: #936176; border-radius: 2px; } 
-
-/* Poprawiony selektor łapiący zarówno tagi b jak i strong generowane przez forum */
-.cont > div b, .cont > div strong { color: #d4cecd; }
+.cont > div::-webkit-scrollbar-thumb { background: #936176; border-radius: 2px; }
+.cont > div b { color: #d4cecd; }
