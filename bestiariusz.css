@@ -23,8 +23,3 @@
 .cont > div::-webkit-scrollbar-track { background: rgba(0,0,0,0.1); } 
 .cont > div::-webkit-scrollbar-thumb { background: #936176; border-radius: 2px; }
 .cont > div b { color: #d4cecd; }
-.header-inner b:last-of-type::before, 
-.header-inner b:last-of-type::after {
-    content: " ─── ";
-    color: #ab8394;
-}
