@@ -1,3 +1,6 @@
+.item-header { margin-bottom: 25px; padding-bottom: 15px; } 
+.item-header > .header-inner > b, .header-inner > b { font-family: 'Bigelow Rules', cursive; font-size: 38px; line-height: 32px; font-weight: 400; display: block; color: #d4cecd; } 
+.item-header > .header-inner > div { margin-top: 10px; font-size: 13px; line-height: 1.4; text-align: justify; color: #ab8394; } 
 .box { width: 500px; height: 400px; margin: 0 auto 15px auto; position: relative; text-align: left; background: #1c111c; border: 1px solid transparent; border-image: linear-gradient(135deg, #936176, #c48b9f, #936176, #593544) 1; display: flex; color: #936176; font: 12px Lato; } 
 .box:first-of-type { margin-top: 35px; } 
 .rank { position: absolute; right: -10px; top: -10px; background: #1c111c; padding: 10px 12px; display: inline-flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; border: 1px solid transparent; border-image: linear-gradient(135deg, #c48b9f, #936176) 1; color: #d4cecd; z-index: 10; line-height: 1.1; } 
