@@ -13,7 +13,7 @@
 .item-rank > b { font: 20px Castoro; margin-bottom: -3px; color: #d4cecd; } 
 .item-image { width: 230px; height: 100%; border-right: 1px solid #936176; background-position: center; background-size: cover; flex-shrink: 0; } 
 .item-content { flex: 1; padding: 30px; display: flex; flex-direction: column; overflow: hidden; } 
-.item-content > b { font-family: 'Bigelow Rules', cursive; font-size: 32px; line-height: 28px; font-weight: 400; flex-shrink: 0; color: #d4cecd; text-align: center; }
+.item-content > b { font-family: 'Bigelow Rules', cursive; font-size: 30px; line-height: 28px; font-weight: 400; flex-shrink: 0; color: #d4cecd; }
 .item-content > div { margin-top: 15px; text-align: left; hyphens: auto; overflow-y: auto; flex-grow: 1; padding-right: 5px; color: #ab8394; } 
 .item-content > div br { display: block; } 
 .item-content > div b { color: #d4cecd; }
