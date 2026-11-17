@@ -1,0 +1,41 @@
+<style>
+  .rpg-btn {
+    display: inline-flex;
+    align-items: center;
+    height: 30px;
+    text-decoration: none !important;
+    background: #1a1a1a; /* Ciemne tło pasujące do klimatu */
+    border: 1px solid #ab8394; /* Subtelna ramka w Twoim kolorze */
+    color: #e0e0e0 !important;
+    font-family: inherit;
+    margin: 4px 0;
+    transition: background 0.2s, border-color 0.2s;
+  }
+  .rpg-btn:hover {
+    background: #33262b; /* Podświetlenie po najechaniu */
+    border-color: #d1a3b8;
+  }
+  .rpg-btn-icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #ab8394;
+    flex-shrink: 0;
+    font-size: 14px;
+  }
+  .rpg-btn-text {
+    padding: 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  
+  /* Wymiary: Główny i węższy (podrozdział) */
+  .rpg-btn-main { width: 230px; } /* 30px ikonka + 200px tekst */
+  .rpg-btn-sub { width: 200px; margin-left: 15px; } /* Węższy o 30px i lekko wsunięty w prawo */
+</style>
