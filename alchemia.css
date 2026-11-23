@@ -1,0 +1,40 @@
+.aw,.aw *{box-sizing:border-box;transition:.4s}
+.aw{max-width:820px;margin:20px auto;background:#10070c;border:1px solid transparent;border-image:linear-gradient(135deg,#936176,#c48b9f,#936176,#593544) 1;padding:24px;color:#ab8394;font:0 Lato,sans-serif}
+.aw br,.ack{display:none!important}
+.ad br{display:inline!important}
+.ap{background:rgba(147,97,118,.08);border:1px solid #593544;padding:12px 14px;margin-bottom:16px;display:flex;flex-direction:column;gap:8px}
+.ar{display:flex;align-items:center;flex-wrap:wrap;gap:5px}
+.ar.p{padding-top:8px;border-top:1px solid #593544}
+.al{font-size:8px;text-transform:uppercase;letter-spacing:.5px;color:#ab8394;font-weight:700;margin-right:4px}
+.ab{display:inline-block;background:rgba(147,97,118,.08);color:#ab8394;border:1px solid #593544;padding:3px 7px;font-size:8px;font-weight:600;text-transform:uppercase;letter-spacing:.5px;cursor:pointer;user-select:none}
+.ab:hover{background:rgba(147,97,118,.22);border-color:#936176;color:#d4cecd}
+.ab.c{background:rgba(147,97,118,.14);color:#c48b9f}
+#a1:checked~.ap [for=a1],#a2:checked~.ap [for=a2],#a3:checked~.ap [for=a3],#a4:checked~.ap [for=a4],#a5:checked~.ap [for=a5],#a6:checked~.ap [for=a6],#a7:checked~.ap [for=a7],#a8:checked~.ap [for=a8],#a9:checked~.ap [for=a9],#a10:checked~.ap [for=a10],#a11:checked~.ap [for=a11],#a12:checked~.ap [for=a12],#a13:checked~.ap [for=a13],#a14:checked~.ap [for=a14],#a15:checked~.ap [for=a15]{background:#936176;border-color:#c48b9f;color:#d4cecd;font-weight:700}
+#a1:checked~.as .ac:not(.t1),#a2:checked~.as .ac:not(.t2),#a3:checked~.as .ac:not(.t3),#a4:checked~.as .ac:not(.t4),#a5:checked~.as .ac:not(.t5),#a6:checked~.as .ac:not(.t6),#a7:checked~.as .ac:not(.t7),#a8:checked~.as .ac:not(.t8),#a9:checked~.as .ac:not(.t9),#a10:checked~.as .ac:not(.t10),#a11:checked~.as .ac:not(.t11),#a12:checked~.as .ac:not(.t12),#a13:checked~.as .ac:not(.t13),#a14:checked~.as .ac:not(.t14),#a15:checked~.as .ac:not(.t15){display:none}
+.ac{position:relative;display:flex;flex-direction:column;background:rgba(147,97,118,.06);border:1px solid #593544;padding:14px 16px;margin-bottom:12px}
+.ac:hover{border-color:#936176;background:rgba(147,97,118,.11)}
+.ac.nar{border-left:3px solid #936176;background:rgba(147,97,118,.09)}
+.ac.arc{background:linear-gradient(90deg,rgba(194,74,114,.13),rgba(147,97,118,.06) 48%);border-color:#5e2b3d;border-left:3px solid #c24a72}
+.ac.arc:hover{border-color:#94405c}
+.ac.arc .an{color:#fae6ed}
+.atr{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;border-bottom:1px solid #593544;padding-bottom:6px;margin-bottom:7px}
+.atl{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px}
+.an{font-size:15px;font-weight:700;color:#d4cecd;letter-spacing:.4px}
+.aro{font-size:9px;text-transform:uppercase;letter-spacing:.8px;color:#ab8394;font-weight:600}
+.aro b.s{color:#e0638c;font-weight:800}
+.ak{font-size:9px;text-transform:uppercase;letter-spacing:.6px;font-weight:700;padding:2px 8px;background:rgba(89,75,54,.25);border:1px solid #6e5c42;color:#e3caa3;border-radius:3px;white-space:nowrap}
+.ats{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:8px}
+.at{font-size:8px;text-transform:uppercase;letter-spacing:.7px;padding:2px 6px;border-radius:3px;background:#23232b;color:#b0b0be;border:1px solid #32323d}
+.at.p{border-color:#4d4554;color:#c7bcd1;background:rgba(77,69,84,.25)}
+.at.l{border-color:#3d5c50;color:#9ed9c0;background:rgba(61,92,80,.22)}
+.at.b{border-color:#6e3b46;color:#ebadb9;background:rgba(110,59,70,.24)}
+.at.t{border-color:#4c5938;color:#bfd49e;background:rgba(76,89,56,.22)}
+.at.m{border-color:#3a4f5c;color:#9ec3d9;background:rgba(58,79,92,.22)}
+.at.u{border-color:#594b36;color:#d9be96;background:rgba(89,75,54,.22)}
+.at.s{border-color:#8c465d;color:#f0b6c9;background:rgba(140,70,93,.25);font-weight:700}
+.ad{font-size:12px;line-height:1.55;color:#ab8394;text-align:justify}
+.ad p{margin:0 0 5px}
+.ad p:last-child{margin-bottom:0}
+.ad b{color:#d4cecd;font-weight:700}
+.ad span.sk{color:#f0b6c9;font-weight:700}
+@media(max-width:600px){.atr{flex-direction:column;align-items:flex-start}.atl{flex-direction:column;gap:2px}}
