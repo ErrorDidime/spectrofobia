@@ -45,3 +45,4 @@
 .nd::-webkit-scrollbar-track{background:rgba(0,0,0,.1)!important}
 .nd::-webkit-scrollbar-thumb{background:#936176!important;border-radius:2px!important}
 @media(max-width:600px){.nc{flex-direction:column;align-items:center}.na{width:180px;height:260px}.ni{height:auto}.nd{max-height:180px}.ntr{flex-direction:column;align-items:center;text-align:center}.nts{justify-content:center}}
+.nkp img{width:14px;height:14px;object-fit:contain;display:block}
